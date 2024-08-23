@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "npx serve -s dist/ng-chat-socket",
-    "build": "ng build --prod",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
